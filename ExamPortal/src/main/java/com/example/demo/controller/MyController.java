@@ -26,6 +26,7 @@ public class MyController {
 	private UserService userservice;
 
 //	1. To create new user
+//testing git
 
 	@PostMapping("/")
 	public User createUser(@RequestBody User user) throws Exception {
